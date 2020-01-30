@@ -20,13 +20,13 @@ import java.util.Scanner;
 	                        System.out.println("3. Galletas");
 	                        System.out.println("4. Cheetos");
 	                        System.out.println("5. Regresar");
-	                        System.out.println("¿Que producto desea escoger?\n");
+	                        System.out.println("Â¿Que producto desea escoger?\n");
 	                        opc=S.nextInt();
 	                        switch(opc){
                             case 1:{
                                 System.out.println("\nHay "+obj1.cantidadMar+" Margarita");
                                 System.out.println("Precio: "+obj1.precioMar);
-                                System.out.println("¿Cuantos productos desea comprar?");
+                                System.out.println("Â¿Cuantos productos desea comprar?");
                                 cant = S.nextInt();
                                 obj1.vendidoMar=obj1.vendidoMar+cant;
                                 obj1.cantidadMar=obj1.cantidadMar-cant;
@@ -34,14 +34,14 @@ import java.util.Scanner;
                                 obj1.gananciaMar=obj1.gananciaMar+obj1.totalMar;
                                 System.out.println("Compra exitosa: "+cant+" Margarita");
                                 System.out.println("Total: "+obj1.totalMar);
-                                System.out.println("¿Comprar otro producto?\n1. SI\n2. NO\n");
+                                System.out.println("Â¿Comprar otro producto?\n1. SI\n2. NO\n");
                                 opc = S.nextInt ();
                                 break;
                             }
                             case 2:{
                                 System.out.println("\nHay "+obj1.cantidadCho+" Chocoramo");
                                 System.out.println("Precio: "+obj1.precioCho);
-                                System.out.println("¿Cuantos productos desea comprar?");
+                                System.out.println("Â¿Cuantos productos desea comprar?");
                                 cant = S.nextInt();
                                 obj1.vendidoCho=obj1.vendidoCho+cant;
                                 obj1.cantidadCho=obj1.cantidadCho-cant;
@@ -49,14 +49,14 @@ import java.util.Scanner;
                                 obj1.gananciaCho=obj1.gananciaCho+obj1.totalCho;
                                 System.out.println("Compra exitosa: "+cant+" Chocoramo");
                                 System.out.println("Total: "+obj1.totalCho);
-                                System.out.println("¿Comprar otro producto?\n1. SI\n2. NO\n");
+                                System.out.println("Â¿Comprar otro producto?\n1. SI\n2. NO\n");
                                 opc = S.nextInt ();
                                 break;
                             }
                             case 3:{
                                 System.out.println("\nHay "+obj1.cantidadGa+" Galleta");
                                 System.out.println("Precio: "+obj1.precioGa);
-                                System.out.println("¿Cuantos productos desea comprar?");
+                                System.out.println("Â¿Cuantos productos desea comprar?");
                                 cant = S.nextInt();
                                 obj1.vendidoGa=obj1.vendidoGa+cant;
                                 obj1.cantidadGa=obj1.cantidadGa-cant;
@@ -64,14 +64,14 @@ import java.util.Scanner;
                                 obj1.gananciaGa=obj1.gananciaGa+obj1.totalGa;
                                 System.out.println("Compra exitosa: "+cant+" Galleta");
                                 System.out.println("Total: "+obj1.totalGa);
-                                System.out.println("¿Comprar otro producto?\n1. SI\n2. NO\n");
+                                System.out.println("Â¿Comprar otro producto?\n1. SI\n2. NO\n");
                                 opc = S.nextInt ();
                                 break;
                             }
                             case 4:{
                                 System.out.println("\nHay "+obj1.cantidadChe+" Cheetos");
                                 System.out.println("Precio: "+obj1.precioChe);
-                                System.out.println("¿Cuantos productos desea comprar?");
+                                System.out.println("Â¿Cuantos productos desea comprar?");
                                 cant = S.nextInt();
                                 obj1.vendidoChe=obj1.vendidoChe+cant;
                                 obj1.cantidadChe=obj1.cantidadChe-cant;
@@ -79,7 +79,7 @@ import java.util.Scanner;
                                 obj1.gananciaChe=obj1.gananciaChe+obj1.totalChe;
                                 System.out.println("Compra exitosa: "+cant+" Cheetos");
                                 System.out.println("Total: "+obj1.totalChe);
-                                System.out.println("¿Comprar otro producto?\n1. SI\n2. NO\n");
+                                System.out.println("Â¿Comprar otro producto?\n1. SI\n2. NO\n");
                                 opc = S.nextInt ();
                                 break;
                             }
@@ -88,6 +88,7 @@ import java.util.Scanner;
                                 System.out.println("\n");
                                 break;
                             }
+				case
                             default: {
                                 System.out.println("Digite una opcion valida\n");
                             }
@@ -100,7 +101,7 @@ import java.util.Scanner;
                       System.out.println ("\n1. Agregar cantidad"); 
                       System.out.println ("2. Cambiar precio");
                       System.out.println ("3. Cantidad de ventas y ganancia");
-                      System.out.println ("¿Que opcion desea escoger?");
+                      System.out.println ("Â¿Que opcion desea escoger?");
                       opc = S.nextInt();
                       switch (opc){
                           case 1:{
@@ -109,7 +110,7 @@ import java.util.Scanner;
                               System.out.println("2. Chocoramo");
                               System.out.println("3. Galleta");
                               System.out.println("4. Cheetos");
-                              System.out.println ("¿Que opcion desea escoger?");
+                              System.out.println ("Â¿Que opcion desea escoger?");
                               opc = S.nextInt();
                               switch(opc){
                                   case 1:{
@@ -118,7 +119,7 @@ import java.util.Scanner;
                                       cant = S.nextInt();
                                       obj1.cantidadMarT=obj1.cantidadMar+cant;
                                       obj1.cantidadMar=obj1.cantidadMar+cant;
-                                      System.out.println("¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
+                                      System.out.println("Â¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
                                       opc = S.nextInt();
                                       break;
                                   }
@@ -128,7 +129,7 @@ import java.util.Scanner;
                                       cant = S.nextInt();
                                       obj1.cantidadChoT=obj1.cantidadCho+cant;
                                       obj1.cantidadCho=obj1.cantidadCho+cant;
-                                      System.out.println("¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
+                                      System.out.println("Â¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
                                       opc = S.nextInt();
                                       break;
                                   }
@@ -138,7 +139,7 @@ import java.util.Scanner;
                                       cant = S.nextInt();
                                       obj1.cantidadGaT=obj1.cantidadGa+cant;
                                       obj1.cantidadGa=obj1.cantidadGa+cant;
-                                      System.out.println("¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
+                                      System.out.println("Â¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
                                       opc = S.nextInt();
                                       break;
                                   }
@@ -148,10 +149,24 @@ import java.util.Scanner;
                                       cant = S.nextInt();
                                       obj1.cantidadCheT=obj1.cantidadChe+cant;
                                       obj1.cantidadChe=obj1.cantidadChe+cant;
-                                      System.out.println("¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
+                                      System.out.println("Â¿Agregar cantidad para otro producto?\n1. SI\n2. NO\n");
                                       opc = S.nextInt();
                                       break;
                                   }
+				  case 5:{
+                        		System.out.println("\nHay "+obj1.cantidadChe+" SWITCH");
+                            		System.out.println("Precio: "+obj1.precioChe);
+                            		System.out.println("Â¿Cuantas asignaturas desea suspender?");
+                            		cant = S.nextInt();
+                            		obj1.vendidoChe=obj1.vendidoChe+cant;
+                            		obj1.cantidadChe=obj1.cantidadChe-cant;
+                            		obj1.totalChe=obj1.precioChe*cant;
+                            		obj1.gananciaChe=obj1.gananciaChe+obj1.totalChe;
+                            		System.out.println("Compra exitosa: "+cant+" SWITCH");
+                            		System.out.println("Total: "+obj1.totalChe);
+                            		System.out.println("Â¿Empezar a programar bien?\n1. SI\n2. NO\n");
+                            		opc = S.nextInt ();
+                            		break;
                                   default:{
                                     System.out.println("Digite una opcion valida\n");
                                   }
@@ -165,7 +180,7 @@ import java.util.Scanner;
                                  System.out.println("2. Chocoramo");
                                  System.out.println("3. Galleta");
                                  System.out.println("4. Cheetos");
-                                 System.out.println ("¿Que opcion desea escoger?");
+                                 System.out.println ("Â¿Que opcion desea escoger?");
                                  opc = S.nextInt();
                                  switch(opc){
                                      case 1:{
@@ -173,7 +188,7 @@ import java.util.Scanner;
                                          System.out.println("Cambiar: ");
                                          nuevoP = S.nextInt();
                                          obj1.precioMar=nuevoP;
-                                         System.out.println("¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
+                                         System.out.println("Â¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
                                          opc = S.nextInt();
                                          break;  
                                      }
@@ -182,7 +197,7 @@ import java.util.Scanner;
                                          System.out.println("Cambiar: ");
                                          nuevoP = S.nextInt();
                                          obj1.precioCho=nuevoP;
-                                         System.out.println("¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
+                                         System.out.println("Â¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
                                          opc = S.nextInt();
                                          break;
                                      }
@@ -191,7 +206,7 @@ import java.util.Scanner;
                                          System.out.println("Cambiar: ");
                                          nuevoP = S.nextInt();
                                          obj1.precioGa=nuevoP;
-                                         System.out.println("¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
+                                         System.out.println("Â¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
                                          opc = S.nextInt();
                                          break;
                                      }
@@ -200,7 +215,7 @@ import java.util.Scanner;
                                          System.out.println("Cambiar: ");
                                          nuevoP = S.nextInt();
                                          obj1.precioChe=nuevoP;
-                                         System.out.println("¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
+                                         System.out.println("Â¿Cambiar precio de otro producto?\n1. SI\n2. NO\n");
                                          opc = S.nextInt();
                                          break;
                                      }
@@ -227,7 +242,7 @@ import java.util.Scanner;
                               System.out.println("Chocoramo: "+obj1.gananciaCho);
                               System.out.println("Galleta: "+obj1.gananciaGa);
                               System.out.println("Cheetos: "+obj1.gananciaChe);
-                              System.out.println("¿Desea regresar?\n1. SI\n2. NO");
+                              System.out.println("Â¿Desea regresar?\n1. SI\n2. NO");
                               opc=S.nextInt();
                               }while(opc!=1);
                               break;
