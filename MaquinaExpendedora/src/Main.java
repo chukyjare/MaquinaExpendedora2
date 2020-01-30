@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-     //esto el un comentario
-}
-
+        Menu obj1 = new Menu();
+        obj1.ImprimirMenu();
+    }
 }
